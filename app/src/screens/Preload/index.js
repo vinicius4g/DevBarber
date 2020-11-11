@@ -1,0 +1,55 @@
+import React, { useEffect, useContext } from 'react';
+import { Text } from 'react-native';
+import { Container, LoadingIcon } from './styles';
+import AsyncStorage from '@react-native-community/async-storage';
+import { useNavigation } from '@react-navigation/native';
+
+import { UserContext } from '../../contexts/UserContext';
+
+import BarberLogo from '../../assets/barber.svg';
+import Api from '../../Api';
+
+export default () => {
+   
+    //foi criado para mandar informacoes para o context
+    const { dispatch: userDispatch } = useContext(UserContext);
+    const navigation = useNavigation();
+
+    useEffect(()=>{
+        const checkToken = async () => {
+            const token = await AsyncStorage.getItem('token'); //usado para pegar o token salvo
+            if(token !== null){
+                let res = await Api.checkToken(token);                
+                if(res.token){
+                    await AsyncStorage.setItem('token', res.token);
+
+                    userDispatch({
+                        type: 'setAvatar',
+                        payload:{
+                            avatar: res.data.avatar
+                        }
+                    });
+    
+                    navigation.reset({
+                        routes:[{name: 'MainTab'}]
+                    });
+                }
+                else {
+                    //se o token nao funcionou por algum motivo manda pra pag de login
+                    navigation.navigate('SignIn');
+                }
+            } 
+            else {
+                navigation.navigate('SignIn');
+            }
+        }
+        checkToken();
+    },[]);
+
+    return (
+        <Container>
+            <BarberLogo width="100%" height="160" />
+            <LoadingIcon size="large" color="#FFFFFF"  />
+        </Container>
+    );
+}
