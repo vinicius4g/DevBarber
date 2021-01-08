@@ -11,6 +11,6 @@ Obs: 1 - O Aplicativo só funciona em Android, para testar o app é necessario a
      4 - Para testar o app pode-se utilizar o seguinte login: Usuário: suporte@b7web.com.br ||  Senha: 1234.
 
 Descrição do App:
-O aplicativo tem como finalidade maracar horários em salões de beleza, de modo prático, fácil e agil.
+O aplicativo tem como finalidade maracar horários em salões de beleza, de modo prático, fácil e ágil.
 
 Imagens do projeto funcionando estão na pasta: screnshots.
