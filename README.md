@@ -2,7 +2,7 @@ Aplicativo mobile ReacNative, feito em estudo por:
 https://www.youtube.com/watch?v=kk_pGWBOkc4&ab_channel=BoniekyLacerda e https://www.youtube.com/watch?v=wdvxNgGV0sU&ab_channel=BoniekyLacerda
 
 
-Executar o projeto: npm start e logo depois: npx react-native run-android. 
+Executar o projeto: npm install, npm start e logo depois: npx react-native run-android. 
 
 
 Obs: 1 - O Aplicativo só funciona em Android, para testar o app é necessario ativar o modo depuração, e estar com o cabo usb conectado no aparelho e computador. 
