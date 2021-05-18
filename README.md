@@ -5,7 +5,7 @@
 
 App mobile em React Native, feito em estudo por [Bonieky Lacerda](https://www.youtube.com/watch?v=kk_pGWBOkc4), [Parte 2](https://www.youtube.com/watch?v=wdvxNgGV0sU&ab_channel=BoniekyLacerda)
 <br>
-O aplicativo tem como finalidade maracar horários em salões de beleza, de modo prático, fácil e ágil.
+O aplicativo tem como finalidade marcar horários em salões de beleza, de modo prático, fácil e ágil.
 <br>
 - Imagens do projeto funcionando estão na pasta: screenshots.
 
