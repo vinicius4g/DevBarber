@@ -5,9 +5,10 @@
 
 App mobile em React Native, feito em estudo por [Bonieky Lacerda](https://www.youtube.com/watch?v=kk_pGWBOkc4), [Parte 2](https://www.youtube.com/watch?v=wdvxNgGV0sU&ab_channel=BoniekyLacerda)
 <br>
-O aplicativo tem como finalidade maracar horários em salões de beleza, de modo prático,fácil e ágil.
+O aplicativo tem como finalidade maracar horários em salões de beleza, de modo prático, fácil e ágil.
 <br>
 - Imagens do projeto funcionando estão na pasta: screenshots.
+
 
 
 ## 🔨 Techs
@@ -19,11 +20,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Styled Components](https://styled-components.com/docs/basics)
 
 
+
 ## 🚀 Como executar
 
 - Clone o repositório
 - Rode `npm install` para instalar as dependências.
 - Rode o `npm start` e `npx react-native run-android.` para iniciar a aplicação.
+
 
 
 ## 💬 Observaçoẽs
