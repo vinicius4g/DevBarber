@@ -3,7 +3,7 @@
 
 ## 💻 Projeto
 
-App mobile, feito em estudo por [Bonieky Lacerda](https://www.youtube.com/watch?v=kk_pGWBOkc4), [Parte 2](https://www.youtube.com/watch?v=wdvxNgGV0sU&ab_channel=BoniekyLacerda)
+App mobile, feito em estudo por Bonieky Lacerda: [Parte 1](https://www.youtube.com/watch?v=kk_pGWBOkc4), [Parte 2](https://www.youtube.com/watch?v=wdvxNgGV0sU&ab_channel=BoniekyLacerda)
 <br>
 O aplicativo tem como finalidade marcar horários em salões de beleza, de modo prático, fácil e ágil.
 <br>
